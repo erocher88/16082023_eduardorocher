@@ -1,0 +1,481 @@
+    1  git --version
+    2  ls
+    3  d:/
+    4  ls
+    5  d:
+    6  d:/
+    7  cd d:/
+    8  cd cursos/Oracle ONE Alura/html_css/barberia
+    9  cd cursos/
+   10  cd Oracle ONE Alura/
+   11  cd Oracle_ONE_Alura/
+   12  cd 'Oracle ONE Alura'/
+   13  cd html_css/barberia
+   14  ls
+   15  git init
+   16  git status
+   17  cd cursos/'Oracle ONE Alura'/usando_git
+   18  cd cursos/
+   19  cd d:/cursos/
+   20  'Oracle ONE Alura'/usando_git
+   21  cd 'Oracle ONE Alura'/
+   22  cd usando_git/
+   23  ls
+   24  git init
+   25  git status
+   26  cd d:/
+   27  cd cursos/oracle
+   28  cd usando_git/
+   29  git add .
+   30  git status
+   31  git commit -m "Creando archivo index.html con lista de cursos"
+   32  git config --global user.email "erocher88@outlook.com"
+   33  git config --global user.name "erocher88"
+   34  git commit -m "Creando archivo index.html con lista de cursos"
+   35  git status
+   36  git status
+   37  git status
+   38  git add index.html
+   39  git status
+   40  git commit -m "agregado Latam en titulo"
+   41  git log
+   42  git log --oneline
+   43  git log -p
+   44  git status
+   45  git log --oneline
+   46  cd ..
+   47  mkdir gitserver
+   48  cd gitserver/
+   49  git init --bare
+   50  cd ..
+   51  cd usando_git/
+   52  git remote
+   53  git remote add localserver D:/cursos/oracle/gitserver/
+   54  git remote
+   55  git remote -v
+   56  cd ..
+   57  mkdir clonusando_git
+   58  cd clonusando_git
+   59  git clone /d/cursos/oracle/gitserver/ proyecto
+   60  cd ..
+   61  cd usando_git
+   62  git remote
+   63  git push localserver master
+   64  cd.. 
+   65  cd ..
+   66  cd clonusando_git/proyecto
+   67  git remote
+   68  git remote rename origin localserver
+   69  git pull localserver master
+   70  ls
+   71  git status
+   72  git add index.html
+   73  git commit -m "Renombrando curso de integracion continua"
+   74  git status
+   75  git push localserver master
+   76  cd ../ ..
+   77  cd ../..
+   78  cd usando_git
+   79  git status
+   80  git pull localserver master
+   81  git log -p
+   82  cd d:/
+   83  cd cursos/
+   84  cd alura/
+   85  dir
+   86  cd oracle/
+   87  dir
+   88  cd usando_git/
+   89  git remote add origin https://github.com/erocher88/alura-git.git
+   90  git push origin master
+   91  git branch
+   92  git branch titulo
+   93  git branch
+   94  git checkout titulo
+   95  git status
+   96  git add .
+   97  git commit -m "Agregando DevOps al titulo"
+   98  git log
+   99  git checkout master
+  100  git log
+  101  git chekout titulo
+  102  git status
+  103  git checkout titulo
+  104  git checkout master
+  105  git status
+  106  git add .
+  107  git commit -m "Corrigiendo curso Docker"
+  108  git merge titulo
+  109  git log
+  110  git log --graph
+  111  git checkout titulo
+  112  git status
+  113  git add index.html
+  114  git commit -m "agregar lista de"
+  115  git checkout master
+  116  git rebase titulo
+  117  git log --graph
+  118  git push localserver master
+  119  cd d:/cursos/oracle/
+  120  cd usando_git/
+  121  git log --oneline
+  122  got log -n 2
+  123  git log -n 2
+  124  git tag -a 1.0 -m "Lanzando la version BETA de cursos"
+  125  git tag
+  126  git remote -v
+  127  git push origin master
+  128  git push origin 1.0
+  129  cd d:/
+  130  cd python_work/alien_invasion/
+  131  d:
+  132  cd d:
+  133  cd cursos/oracle/api
+  134  git init
+  135  git add .
+  136  git commit -m "First commit of API from class 2 of spring boot"
+  137  git remote add origin https://github.com/erocher88/springboot3voll.git
+  138  git push -u origin master
+  139  git status
+  140  git add .
+  141  git commit -m "Updates of API after alura class no 2"
+  142  git push origin master
+  143  exit
+  144  cd d:
+  145  cd cursos/oracle/api
+  146  git status
+  147  git status
+  148  git add .
+  149  git commit -m "Update .gitignore"
+  150  git push origin master
+  151  git add .
+  152  git commit -m "update gitignore"
+  153  git push origin master
+  154  git reset --hard 56ab28e
+  155  git reset --hard c1b7633
+  156  git push --force
+  157  git status
+  158  git status
+  159  git commit -a
+  160  git push origin master
+  161  git status
+  162  git reset --hard 055c419
+  163  git push --force
+  164  git reset --hard 055c419
+  165  git reset --hard c1b7633
+  166  git push --force
+  167  git status
+  168  git add .
+  169  git commit -m "mysql addition"
+  170  git push origin master
+  171  git status
+  172  git add .
+  173  git commit -m "added classes to obtain data for table"
+  174  git push origin master
+  175  cd d:
+  176  cd cursos/oracle
+  177  dir
+  178  cd api
+  179  git status
+  180  git status
+  181  git add .
+  182  git commit -m "migrate tables and validation with Bean"
+  183  git push origin master
+  184  cd d
+  185  cd d:
+  186  cd cursos/oracle/api
+  187  git status
+  188  git status
+  189  git add .
+  190  git commit -m "Added GET for list using Pageables, set order and size of list, modified properties of Console message about queries"
+  191  git push origin master
+  192  exit
+  193  cd d:
+  194  cd cursos/oracle/api
+  195  cd d:
+  196  cd cursos/oracle/api
+  197  git status
+  198  git add .
+  199  git commit -m "Added PUT request with a new DTO"
+  200  git push origin master
+  201  cd d:
+  202  cd cursos/oracle/api
+  203  git status
+  204  git add .
+  205  git commit -m "Added a Delete in DB and Logic Delete with DeleteMapping"
+  206  git push origin master
+  207  cd d:
+  208  cd cursos/oracle/api
+  209  git status
+  210  git add .
+  211  git commit -m "Standard API Returns"
+  212  git push origin master
+  213  cd d:
+  214  cd cursos/oracle/api
+  215  git status
+  216  git add .
+  217  git commit -m "Added exception handlers for 404 and 400"
+  218  git push origin master
+  219  git status
+  220  git add .
+  221  git commit -m "Added Users table and security config stateless"
+  222  git push origin master
+  223  cd d:
+  224  cd cursos/oracle/api
+  225  git status
+  226  git add .
+  227  git commit -m "added user authentication, sec configs and bcrypt"
+  228  git push origin master
+  229  git status
+  230  git add .
+  231  git commit -m "Added token to authorize session"
+  232  git push origin master
+  233  cd d:
+  234  cd cursos/oracle/api
+  235  git status
+  236  git add .
+  237  git commit -m "Added filters and auth methods to all except login"
+  238  git push origin master
+  239  pwd
+  240  cd Desktop
+  241  pwd
+  242  mkdir informes
+  243  cd informes
+  244  touch informeAnual.xls
+  245  ls
+  246  mkdir auditoria
+  247  touch auditoria.xls
+  248  touch reporteConsolidado.xls
+  249  ls
+  250  mv auditoria.xls auditoria/
+  251  cd auditoria
+  252  ls
+  253  pwd
+  254  ls
+  255  cd Desktop
+  256  cd d:
+  257  ls
+  258  cd digitalhouse
+  259  mkdir DH
+  260  ls
+  261  cd DH
+  262  mkdir Peliculas
+  263  cd Peliculas
+  264  mkdir Infantiles Accion Terror Comedia Romanticas
+  265  ls
+  266  cd Infantiles
+  267  touch Intenzamente.txt
+  268  touch "El juego del miedo.xls"
+  269  touch "Rapido y furioso.pdf" Titanic.jpg
+  270  ..
+  271  cd ..
+  272  cd Accion
+  273  touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" Cars.jpg
+  274  cd ../Terror
+  275  touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+  276  cd ../Comedia
+  277  touch Madagaskar.js "Orgullo y prejuicio.txt" IT.xls "Mision imposible.png"
+  278  cd ../Romanticas
+  279  touch Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+  280  cd ..
+  281  ls -R
+  282  cd DH
+  283  cd ..
+  284  mkdir Peliculas/Romanticas/Prueba
+  285  cd Peliculas/Romanticas
+  286  mkdir ../Accion/Prueba2
+  287  cd d:
+  288  clear
+  289  git --version
+  290  git --version
+  291  git config user.name
+  292  git config --list
+  293  cd d:
+  294  cd digitalhouse
+  295  cd intinformatica
+  296  git init
+  297  git status
+  298  cd d:
+  299  cd digitalhouse/intinformatica
+  300  mkdir prueba
+  301  cd prueba
+  302  git init
+  303  touch app.js
+  304  git status
+  305  git add app.js
+  306  git status
+  307  git commit -m "prueba"
+  308  cd ..
+  309  mkdir mercadoAbierto
+  310  cd mercadoAbierto
+  311  git init
+  312  touch productos.js
+  313  git status
+  314  git add productos.js
+  315  git status
+  316  git commit -m "mi primer commit"
+  317  git status
+  318  cd d:
+  319  cd digitalhouse/intinformatica/Ecommerce
+  320  touch apps.js
+  321  touch config.js
+  322  mkdir db
+  323  git init
+  324  git add .
+  325  git status
+  326  git commit -m "primer commit"
+  327  git status
+  328  ls
+  329  git log
+  330  ls -la .git
+  331  ls -R
+  332  cd db
+  333  touch producto_db.js
+  334  touch carrito_db.js
+  335  cd ..
+  336  git status
+  337  git commit -m "guardando lo importante"
+  338  git status
+  339  git log -- stat
+  340  git log --stat
+  341  git add .
+  342  git status
+  343  git commit -m "guardando lo importante del proyecto"
+  344  git status
+  345  cd db
+  346  rm producto_db.js
+  347  git restore .
+  348  rm ../config.js
+  349  git add .
+  350  git status
+  351  git commit -m "sacando la configuracion"
+  352  git status
+  353  git add .
+  354  git commit -m "sacando la configuracion"
+  355  git status
+  356  git log --stat
+  357  git ls-files
+  358  cd ..
+  359  git ls-files
+  360  git status
+  361  git commit -m "prueba"
+  362  git rm config.js
+  363  git status
+  364  git commit -m "ahora si removiendo config"
+  365  git ls-files
+  366  cd d:
+  367  cd digitalhouse/intinformatica/Ecommerce
+  368  git remote add origin https://github.com/erocher88/repoinformatica.git
+  369  git remote -v
+  370  git log
+  371  git push origin master
+  372  cd ..
+  373  mkdir clondegithub
+  374  cd clondegithub
+  375  git clone https://github.com/erocher88/repoinformatica2.git
+  376  cd repoinformatica2
+  377  touch models.js
+  378  git status
+  379  git add models.js
+  380  git status
+  381  git commit -m "mi primer commit"
+  382  git status
+  383  git push origin master
+  384  git push origin main
+  385  git status
+  386  cd d:
+  387  cd digitalhouse/intinformatica
+  388  git clone https://github.com/sumpierrezf/tarea-informatica.git
+  389  cd tarea-informatica
+  390  git pull
+  391  git pull
+  392  git add .
+  393  git commit -m "tercer commit"
+  394  git push
+  395  touch dbtarea.sql
+  396  git add .
+  397  git status
+  398  git commit -m "archivo sql"
+  399  git push
+  400  git pull
+  401  git pull
+  402  git add .
+  403  git commit -m "configuracion a tabla alumnos"
+  404  git push
+  405  git add .
+  406  git commit -m "actualizacion final alumnos"
+  407  git push
+  408  git pull
+  409  git pull
+  410  git add .
+  411  git commit -m "borrando linea 5 y agregando parrafo en linea 10"
+  412  git push
+  413  git pull
+  414  git checkout eduardo
+  415  git branch eduardo
+  416  git checkout eduardo
+  417  git add .
+  418  git commit -m "datos de alumnos"
+  419  git status
+  420  git push origin eduardo
+  421  git checkout main
+  422  git checkout eduardo
+  423  git push origin main
+  424  git checkout main
+  425  git pull origin main
+  426  git merge eduardo
+  427  git push origin main
+  428  git pull origin main
+  429  cd d:
+  430  cd digitalhouse/frontend1/clase5
+  431  git init
+  432  git status
+  433  git add .
+  434  git stauts
+  435  git status
+  436  git commit -m "Clase 5 receta de limon en html"
+  437  git remote add origin https://github.com/erocher88/frontendclase5.git
+  438  git status
+  439  git push origin master
+  440  cd d:
+  441  cd digitalhouse/intinformatica/16082023_eduardorocher
+  442  touch main.js
+  443  touch index.html
+  444  git init
+  445  git add .
+  446  git status
+  447  git commit -m "commit 01 eduardoRocher"
+  448  git remote add origin https://github.com/erocher88/16082023_eduardorocher.git
+  449  git push origin master
+  450  git branch feature
+  451  git checkout feature
+  452  mkdir Hardware
+  453  mkdir Software
+  454  mkdir SeguridadInformatica
+  455  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  456  ls
+  457  git status
+  458  git add .
+  459  git status
+  460  git commit -m "commit 02 eduardoRocher"
+  461  git push origin feature
+  462  git checkout master
+  463  mv main.js resumenHardware.txt
+  464  mv index.html resumenSoftware.txt
+  465  git status
+  466  git rm index.html main.js
+  467  git status
+  468  git add .
+  469  git status
+  470  git commit -m "commit 03 eduardoRocher"
+  471  git push origin master
+  472  nano resumenSoftware.txt
+  473  nano resumenHardware.txt
+  474  git status
+  475  git commit -m "commit 04 eduardoRocher"
+  476  git add .
+  477  git commit -m "commit 04 eduardoRocher"
+  478  git push origin master
+  479  touch comandos.txt
+  480  history
+  481  history > comandos.txt
